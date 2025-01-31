@@ -105,8 +105,6 @@ fitted <- model |>
     )
   )
 
-save.image("gpt2_shakespeare.RData")
-
 context <- "O God, O God!"
 text <- generate(fitted$model, dataset$vocab, context, iter = 100)
 cat(text)
