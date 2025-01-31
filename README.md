@@ -1,3 +1,3 @@
 - `gpt2_shakespeare.R`: Here I provide code in R `torch` to train a GPT2 model to predict Shakespeare quotes (based on https://mlverse.github.io/luz/articles/examples/chargpt.html).
 
-- `ndvi_forecast.ipynb`: Here I provide code in Python using `PyTorch` to train a very simple transformer-based neural network to forecast NDVI values for a coordinate located in Bonn, Germany. The code to obtain the data is in `ndvi_data_download.R`.
+- `ndvi_forecast.ipynb`: Here I provide code in Python using `PyTorch` to train a very simple transformer-based neural network to forecast NDVI values for a coordinate located in Bonn, Germany (exact location here -- https://www.google.com/maps/place/50°47'09.4%22N+7°06'41.4%22E/@50.7616523,7.077294,9161m/data=!3m1!1e3!4m4!3m3!8m2!3d50.785931!4d7.111506?entry=ttu&g_ep=EgoyMDI1MDEyOC4wIKXMDSoASAFQAw%3D%3D). The code to obtain the data is in `ndvi_data_download.R`.
